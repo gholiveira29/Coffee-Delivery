@@ -1,0 +1,126 @@
+.container { 
+    flex-shrink: 0;
+    margin-top: 5.75rem;
+}
+
+.textContainer {
+    display: flex;
+    width: 36.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+
+}
+.textContainer h1 {
+    font-family: 'Baloo 2';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3.9rem;
+}
+
+.textContainer p {
+    color: var(--brown-600);
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.containerIcons {
+    width: 35.438rem;
+    height: 5.25rem;
+    flex-shrink: 0;
+    margin-left: 10rem;
+    display: flex;
+}
+
+.esquerda {
+    margin-right: 2rem;
+}
+
+.contentIcons {
+    display: flex;
+    width: 14.438rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.contentIcons2 {
+    display: flex;
+    width: 18.375rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.cart {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 50%;
+    background: var(--yellow-dark);
+    color: var(--white-200)
+}
+
+.timer {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 50%;
+    background: var(--yellow);
+    color: var(--white-200)
+}
+
+.package {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 50%;
+    background: var(--brown-500);
+    color: var(--white-200);
+}
+
+.coffee {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 50%;
+    background: var(--purple);
+    color: var(--white-200);
+}
+
+.spanText {
+    color: var( --brown-500);
+
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+.image {
+    display: flex;
+   justify-content: end;
+   margin-top: -22rem;
+   margin-right: 10rem;
+ 
+}

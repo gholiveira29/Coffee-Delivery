@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+    width: 100%;
+    height: 6.5rem;
+}
+
+.logo {
+    width: 5.309rem;
+    margin-left: 10rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 10rem;
+    gap: 1rem;
+
+}
+
+.containerLocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--purple-light);
+    color: var(--purple);
+
+    width: 8.938rem;
+    height: 2.375rem;
+
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.cart {
+    background: var(--yellow-light);
+    color: var(--yellow-dark);
+    width: 2.375rem;
+    height: 2.375rem;
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
