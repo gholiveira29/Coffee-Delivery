@@ -1,4 +1,5 @@
 import { Header } from '../../components/Header';
+import { ListCoffee } from '../../components/ListCoffee';
 import { Panel } from '../../components/Panel';
 
 export function Home() {
@@ -6,6 +7,7 @@ export function Home() {
         <>
             <Header />
             <Panel />
+            <ListCoffee />
         </>
     );
 }

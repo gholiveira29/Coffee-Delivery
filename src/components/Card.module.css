@@ -1,0 +1,162 @@
+.container {
+    width: 16rem;
+    height: 19.375rem;
+    flex-shrink: 0;
+
+    border-radius: 10px 36px;
+    background: var(--white-300);
+    
+}
+
+.imgCAfe {
+    display: flex;
+    width: 7.5rem;
+    height: 7.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.imgCAfe img {
+    margin-top: -60%;
+    margin-left: 100%;
+}
+
+.type {
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1.313rem;
+    margin-left: 23%;
+    margin-top: -1.875rem;
+    border-radius: 100px;
+    background: var(--yellow-light);
+}
+
+.type span {
+    color: var(--yellow-dark);
+
+    font-family: 'Roboto';
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.813rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--brown-600);
+    text-align: center;
+
+    margin-top: 2rem;
+
+    font-family: 'Baloo 2';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.625rem;
+}
+
+.description {
+    width: 13.5rem;
+    height: 2.25rem;
+    margin-left: 1.875rem;
+    margin-top: 0.375rem;
+}
+
+.description p {
+    color: var(--brown-400);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.138rem;
+}
+
+.containerValue {
+    display: flex;
+    width: 13rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+
+.valueContent {
+    width: 67px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+    color: var(--brown-500);
+    text-align: right;
+
+    font-family: 'Roboto';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.138rem
+}
+
+.counter {
+    display: flex;
+    height: 2.375rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 10px;
+    background: var(--brown-200);
+}
+
+.counter button {
+    width: 14px;
+    height: 14px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.counterIcon {
+    color: var(--purple);
+}
+
+.counter span {
+    color: var(--brown-700);
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3rem
+}
+
+.cart {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 10px;
+    background: var(--purple-dark);
+    
+}
+.cart button {
+    background: transparent;
+    border: 0;
+    height: 2.125rem;
+    cursor: pointer;
+}
+
+.cartIcon{
+    color: var(--white-100);
+    margin-top: 3px;
+}

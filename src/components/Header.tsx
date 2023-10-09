@@ -23,7 +23,6 @@ export function Header() {
                     </span>
                 </nav>
             </header>
-            <hr />
         </>
     );
 }
