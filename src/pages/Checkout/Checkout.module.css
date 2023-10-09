@@ -1,0 +1,16 @@
+.container {
+    height: 63.313rem;
+    background: var(--white-200);
+}
+
+.title {
+    color: var( --brown-600);
+    font-family: Baloo 2;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.463rem;
+
+    margin-top: 5rem;
+    margin-left: 10rem;
+}

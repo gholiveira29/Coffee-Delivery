@@ -5,7 +5,6 @@ import { Panel } from '../../components/Panel';
 export function Home() {
     return (
         <>
-            <Header />
             <Panel />
             <ListCoffee />
         </>

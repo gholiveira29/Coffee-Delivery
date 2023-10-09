@@ -23,6 +23,11 @@
     --white-100: #FFFFFF;
 }
 
+:focus {
+        outline: transparent;
+    box-shadow: 0 0 0 2px var(--purple);
+}
+
 body {
 background: var(--white-200);
     -webkit-font-smooting: antialiased;
@@ -32,4 +37,5 @@ body, input, text, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    color: var(--brown-600)
 }
