@@ -8,7 +8,7 @@ export function Header() {
     return (
         <>
             <header className={styles.header}>
-                <NavLink to="/" title="home">
+                <NavLink to="/" title="home" className={styles.navlink}>
                     <img
                         className={styles.logo}
                         src={Logo}

@@ -5,14 +5,12 @@
     gap: 16rem;
     align-self: stretch;
     padding: 2.5rem;
-    margin-left: 10rem;
 
     border-radius: 10px;
     background: var(--white-300);
 
     width: 40rem;
     height: 23.25rem;
-    margin-top: 1rem;
 }
 
 .mapIcon {

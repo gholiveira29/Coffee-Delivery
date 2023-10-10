@@ -24,8 +24,9 @@
 }
 
 :focus {
-        outline: transparent;
+    outline: transparent;
     box-shadow: 0 0 0 2px var(--purple);
+    border-radius: 10px;
 }
 
 body {
