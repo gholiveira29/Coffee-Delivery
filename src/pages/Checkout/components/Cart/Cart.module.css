@@ -1,0 +1,217 @@
+.container {
+    display: flex;
+    width: 25rem;
+    height: auto;
+    padding: 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    border-radius: 6px 44px;
+    background: var(--white-300);
+
+}
+
+.item {
+    display: flex;
+    padding: 0.5rem 0.25rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+
+.itensContent {
+    display: flex;
+    align-items: center;
+    gap: 2.188rem;
+    width: 15.938rem;
+    height: auto;
+}
+
+.img {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameAndAction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.nameAndAction p {
+    color: var(--brown-600);
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.counter {
+    display: flex;
+    height: 2rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 10px;
+    background: var(--brown-200);
+}
+
+.counter button {
+    border: 0;
+    background: transparent;
+}
+
+.counterIcon {
+    color: var(--purple);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttonRemove {
+    display: flex;
+    height: 2rem;
+    padding: 0px 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 10px;
+    background: var(--brown-200);
+    border: 1px solid  var(--brown-200);
+
+    color: var(--brown-500);
+
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: uppercase;
+}
+
+.trash {
+    color: var(--purple);
+}
+
+.value {
+    color: var(--brown-500);
+    text-align: right;
+
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+
+.itensTotalValue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.itensTotalValue p {
+    color: var(--brown-500);
+    text-align: right;
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.frete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.frete p {
+    color: var(--brown-500);
+    text-align: right;
+
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.total p {
+    color: var(--brown-600);
+    text-align: right;
+
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.buttonConfirm {
+    display: flex;
+    padding: 12px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+
+    border-radius: 10px;
+    background: var(--yellow);
+    border: 0;
+
+    color: var(--white-300);
+
+    font-family: 'Roboto';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: uppercase;
+}
+
+
+.buttonConfirm:hover {
+    background: var(--yellow-dark);
+}
+
+.counterIcon:hover {
+    color: var(--purple-dark);
+}
+
+.buttonRemove:hover {
+    background: var(--purple-light);
+}

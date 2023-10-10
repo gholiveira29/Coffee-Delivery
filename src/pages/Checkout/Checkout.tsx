@@ -1,5 +1,6 @@
 import styles from './Checkout.module.css';
 import { Address } from './components/Address/Address';
+import { Cart } from './components/Cart/Cart';
 import { Payment } from './components/Payment/Payment';
 
 export function Checkout() {
@@ -10,6 +11,9 @@ export function Checkout() {
             <div className={styles.content}>
                 <Address />
                 <Payment />
+            </div>
+            <div className={styles.cartContainer}>
+                <Cart />
             </div>
         </div>
     );

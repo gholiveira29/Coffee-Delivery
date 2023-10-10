@@ -160,3 +160,11 @@ h3 {
     color: var(--white-100);
     margin-top: 3px;
 }
+
+.cart:hover {
+    background: var(--purple);
+}
+
+.counterIcon:hover {
+    color: var(--purple-dark);
+}
