@@ -2,6 +2,7 @@ import styles from './Cart.module.css';
 
 import americano from '../../../../images/Americano.png';
 import { Minus, Plus, Trash } from '@phosphor-icons/react';
+import { NavLink } from 'react-router-dom';
 
 export function Cart() {
     return (
@@ -77,7 +78,13 @@ export function Cart() {
                 <p>R$ 13,80</p>
             </div>
 
-            <button className={styles.buttonConfirm}>CONFIRMAR PEDIDO</button>
+            <NavLink
+                to="/success"
+                title="success"
+                className={styles.buttonConfirm}
+            >
+                CONFIRMAR PEDIDO
+            </NavLink>
         </div>
     );
 }

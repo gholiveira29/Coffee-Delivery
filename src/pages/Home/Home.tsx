@@ -1,6 +1,5 @@
-import { Header } from '../../components/Header';
-import { ListCoffee } from '../../components/ListCoffee';
-import { Panel } from '../../components/Panel';
+import { ListCoffee } from './components/List/ListCoffee';
+import { Panel } from './components/Panel/Panel';
 
 export function Home() {
     return (
