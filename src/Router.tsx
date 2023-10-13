@@ -1,17 +1,17 @@
-import { Routes, Route } from 'react-router-dom';
-import { DefaultLayout } from './layouts';
-import { Home } from './pages/Home/Home';
-import { Checkout } from './pages/Checkout/Checkout';
-import { Success } from './pages/Success/Success';
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './Pages/Home'
+import { Checkout } from './Pages/Checkout'
+import { Success } from './Pages/Success'
+import { DefaultLayout } from './layouts/DefaultLayout'
 
 export function Router() {
-    return (
-        <Routes>
-            <Route path="/" element={<DefaultLayout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/checkout" element={<Checkout />} />
-                <Route path="/Success" element={<Success />} />
-            </Route>
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<DefaultLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/success" element={<Success />} />
+      </Route>
+    </Routes>
+  )
 }
