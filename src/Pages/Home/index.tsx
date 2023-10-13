@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { CoffeeSection, CoffeeListContainer, HomeContainer } from './styles';
 
-import { coffeeList } from '../../coffeeList';
+import { coffeeList } from './coffeeList';
 
 import { CoffeeCard } from './components/CoffeeCard';
 import { Intro } from './components/Intro';

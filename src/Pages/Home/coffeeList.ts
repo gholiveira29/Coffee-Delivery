@@ -1,17 +1,17 @@
-import expressTradicional from './assets/coffees/ExpressTradicional.png';
-import expressAmerican from './assets/coffees/ExpressAmerican.png';
-import expressCreamy from './assets/coffees/ExpressCreamy.png';
-import expressIce from './assets/coffees/ExpressIce.png';
-import coffeeWithMilk from './assets/coffees/CoffeWithMilk.png';
-import latte from './assets/coffees/Latte.png';
-import capuccino from './assets/coffees/Capuccino.png';
-import macchiato from './assets/coffees/Macchiato.png';
-import mocaccino from './assets/coffees/Mocaccino.png';
-import hotChocolate from './assets/coffees/HotChocolate.png';
-import cuban from './assets/coffees/Cuban.png';
-import hawaiian from './assets/coffees/Hawaiian.png';
-import arabic from './assets/coffees/Arabic.png';
-import irish from './assets/coffees/Irish.png';
+import expressTradicional from '../../assets/ExpressTradicional.png';
+import expressAmerican from '../../assets/ExpressAmerican.png';
+import expressCreamy from '../../assets/ExpressCreamy.png';
+import expressIce from '../../assets/ExpressIce.png';
+import coffeeWithMilk from '../../assets/CoffeWithMilk.png';
+import latte from '../../assets/Latte.png';
+import capuccino from '../../assets/Capuccino.png';
+import macchiato from '../../assets/Macchiato.png';
+import mocaccino from '../../assets/Mocaccino.png';
+import hotChocolate from '../../assets/HotChocolate.png';
+import cuban from '../../assets/Cuban.png';
+import hawaiian from '../../assets/Hawaiian.png';
+import arabic from '../../assets/Arabic.png';
+import irish from '../../assets/Irish.png';
 
 interface CoffeeListProps {
     coffeeUrlImage: string;
